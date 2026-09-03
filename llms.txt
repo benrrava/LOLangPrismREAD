@@ -1,0 +1,23 @@
+# LOLang - PRISMREAD
+
+> Interactive 3D Demos, Engine Builtins, and Code Examples for LOLang.
+
+## Overview
+LOLang is a lightweight scripting language designed for fast 3D graphics rendering, arcade game logic, and simple physics loops.
+
+## Core Language Syntax & Conventions
+- Function definition: `func function_name(param1, param2)`
+- Variable declaration: `let var_name = value`
+- Control flow: `if ... then ... else if ... else ... end`
+- Loop constructs: `while true do ... end`
+- Standard built-in engine functions:
+  - Window & Loop: `window(title, width, height)`, `update()`, `clear_screen()`, `frame_end(swap_buffers)`, `dt()`
+  - 3D Primitives: `create_cube(x, y, z)`, `create_cylinder(radius, height, segments)`, `create_plane(w, h, div)`
+  - Rendering: `draw_mesh(mesh, x, y, z, rx, ry, rz, sx, sy, sz, r, g, b, a, wireframe)`
+  - Camera: `camera(yaw, pitch, distance)`, `camera_target(x, y, z)`
+  - Input & Mouse: `keydown("KEY")`, `mouse_x()`, `mouse_y()`
+  - Utility/Math: `rand(min, max)`, `clamp(val, min, max)`, `sin(rad)`, `cos(rad)`, `sqrt(val)`, `abs(val)`
+
+## Main Files & Demos
+- `/README.md`: Project overview and usage guidelines.
+- `/demos/3d_spinner_jump.lol`: Full 3D obstacle avoidance arcade game demo.
