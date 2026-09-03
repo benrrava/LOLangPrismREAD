@@ -86,7 +86,3 @@ synth_note(0, 440, "square", 0.15, 0.6)
 ---
 
 Developed by benrrava.
-
-```
-
-```
