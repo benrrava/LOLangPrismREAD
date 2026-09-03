@@ -1,4 +1,3 @@
-```markdown
 # LOLangPRISM
 
 LOLangPRISM serves as the central repository for the LOLang project. LOLang is a lightweight scripting language designed for game engines.
